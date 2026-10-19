@@ -23,11 +23,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Config_Packages\package20261019_1428.shaconfig" />
+    <None Remove="Config_Packages\package20261019_1428_noroles.shaconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Config_Packages\package20261019_1428.shaconfig" />
+    <EmbeddedResource Include="Config_Packages\package20261019_1428_noroles.shaconfig" />
   </ItemGroup>
 
   <ItemGroup>
