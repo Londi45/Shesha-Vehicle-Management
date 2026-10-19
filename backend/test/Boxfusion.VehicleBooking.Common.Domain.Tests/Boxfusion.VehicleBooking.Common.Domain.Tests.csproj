@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Abp.Castle.Log4Net" Version="10.3.0" />
+		<PackageReference Include="Hangfire.SqlServer" Version="1.8.23" />
+		<PackageReference Include="Shesha.Application" Version="$(SheshaVersion)" />
+		<PackageReference Include="Shesha.Core" Version="$(SheshaVersion)" />
+		<PackageReference Include="Shesha.Framework" Version="$(SheshaVersion)" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.83.1" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.10.0" />
+		<PackageReference Include="Moq" Version="4.20.70" />
+		<PackageReference Include="NSubstitute" Version="5.1.0" />
+		<PackageReference Include="Shouldly" Version="4.2.1" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.118" />
+		<PackageReference Include="xunit" Version="2.6.3" />
+		<PackageReference Include="xunit.extensibility.execution" Version="2.6.3" />
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.5.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Abp.TestBase" Version="10.3.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\..\src\Module\Boxfusion.VehicleBooking.Domain\Boxfusion.VehicleBooking.Domain.csproj" />
+	</ItemGroup>
+
+  <ItemGroup>
+		<None Update="appsettings.Test.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="log4net.config">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

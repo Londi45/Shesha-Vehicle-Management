@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="5db3f313-41be-43f7-b6a0-fcc99380d94c" type="Diagram" typeId="4d66fecd-e9b8-436f-aa50-c59040ad0879">
+  <name>Default Diagram</name>
+  <display>Default Diagram</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>fc90595b-a25f-4670-a300-0d0debbdacd4</parentFolderId>
+  <packageId>fc90595b-a25f-4670-a300-0d0debbdacd4</packageId>
+  <packageName>Boxfusion.VehicleBooking</packageName>
+  <diagram>
+    <targetPackageId>fc90595b-a25f-4670-a300-0d0debbdacd4</targetPackageId>
+  </diagram>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="dfd05ebf-191e-4a44-a97b-0748916f6654" name="Prefix Setting">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="46e14c52-85ab-4da6-959d-2a0163a778ea" display="Table Prefix" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

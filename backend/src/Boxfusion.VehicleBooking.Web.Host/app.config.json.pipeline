@@ -1,0 +1,30 @@
+{
+  "ConnectionStrings": {
+    "Default": "#{connString}#",
+    "RabbitMqConnection": "#{rabbitMqConnection}#",
+    "BlobStorage": "#{blobStorage}#"
+  },
+  "App": {
+    "ServerRootAddress": "#{serverRootAddress}#",
+    "CorsOrigins": "#{corsOrigins}#"
+  },
+  "IsAzureEnvironment": true,
+  "HomeAffairsApi": {
+    "Address": "http://105.247.8.227/api/npridverification/"
+  },
+  "Authentication": {
+    "JwtBearer": {
+      "IsEnabled": "true",
+      "SecurityKey": "O0G0DL17KWFK39FSWPVLVB15PL7CD71QKI5PXR3K9Z42P4QBAG7KL9HN9Q6A6VBY76L2TP4LUWWLAV97RUHUAG",
+      "Issuer": "Shesha",
+      "Audience": "Shesha"
+    }
+  },
+  "OpenApiInfo": {
+    "Title": "BoxfusionInventory Api",
+    "Version": "1.0"
+  },
+  "SheshaApp": {
+    "HomeUrl": "/"
+  }
+}

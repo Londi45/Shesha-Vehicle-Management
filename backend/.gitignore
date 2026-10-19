@@ -1,0 +1,16 @@
+/.vs/*
+**/*.suo
+**/*.user
+**/*.bak
+**/*.orig
+**/UpgradeLog.htm
+**/bin/*
+**/obj/*
+**/App_Data/Logs/*
+**/ElmahLogs/*
+Logs
+/src/Boxfusion.VehicleBooking.Web.Host/web.config
+/src/Boxfusion.VehicleBooking.Web.Host/Boxfusion.VehicleBooking.Web.Core.xml
+/sh.exe.stackdump
+
+
