@@ -18,7 +18,7 @@ const Login: PageWithLayout<IProps> = () => (
     />
     <div style={{ textAlign: "center", marginTop: 16 }}>
       Don&apos;t have an account?{" "}
-      <Link href="/no-auth/Boxfusion.VehicleBooking/sign-up">Sign up</Link>
+      <Link href="/no-auth/Boxfusion.VehicleBooking/Sign-up">Sign up</Link>
     </div>
   </>
 );
